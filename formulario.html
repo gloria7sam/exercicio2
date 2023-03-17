@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+
+    <form action="https://www.google.com/">
+        <fieldset>
+            <legend>Formulário do CESAE</legend>
+            <div>
+                <label for="nome">Nome:</label>
+                <input type="text" name="pass" id="nome" placeholder="Insira o seu nome">
+            </div>
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" name="pass" id="pass" required>*
+            </div>
+            <div>
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" value="@cesae.pt">
+            </div>
+            <div>
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade">
+            </div>
+            <div>
+                <label for="dn">DN:</label>
+                <input type="date" name="dn" id="dn">
+            </div>
+            <div>
+                <label for="cv">CV:</label>
+                <input type="file" name="cv" id="cv">
+            </div>
+            <br>
+            <div>
+                <label for="cor">Cor favorita:</label><br><br>
+                <input type="radio" name="cor" id="cor-vermelho">Vermelho<br>
+                <input type="radio" name="cor" id="cor-azul">Azul<br>
+                <input type="radio" name="cor" id="cor-preto">Preto<br>
+                <input type="radio" name="cor" id="cor-amarelo">Amarelo<br>
+                <input type="radio" name="cor" id="cor-verde">Verde<br>
+                <br>
+            </div>
+            <div>
+                <label for="cor2">Segunda Cor favorita:</label><br><br>
+                <input type="radio" name="cor2" id="cor2-vermelho">Vermelho<br>
+                <input type="radio" name="cor2" id="cor2-azul">Azul<br>
+                <input type="radio" name="cor2" id="cor2-preto">Preto<br>
+                <input type="radio" name="cor2" id="cor2-amarelo">Amarelo<br>
+                <input type="radio" name="cor2" id="cor2-verde">Verde<br>
+                <br>
+            </div>
+
+            <div>
+                <label for="cor2">Outra Cor favorita:</label><br><br>
+                <input type="checkbox" name="cor3" id="cor3-vermelho">Vermelho<br>
+                <input type="checkbox" name="cor3" id="cor3-azul">Azul<br>
+                <input type="checkbox" name="cor3" id="cor3-preto">Preto<br>
+                <input type="checkbox" name="cor3" id="cor3-amarelo">Amarelo<br>
+                <input type="checkbox" name="cor3" id="cor3-verde">Verde<br>
+                <br>
+            </div>
+
+            <div>
+                <select name="dia" id="dia">
+                    <option value="" disabled selected>Selecione um dia</option>
+                    <option value="seg">Segunda-feira</option>
+                    <option value="ter">Terça-feira</option>
+                    <option value="quar">Quarta-feira</option>
+                </select>
+                <br><br>
+            </div>
+            <div>
+                <textarea name="" id="" cols="10" rows="10"></textarea>
+            <br><br>
+            </div>
+
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </fieldset>
+    </form>
+
+</body>
+
+</html>
