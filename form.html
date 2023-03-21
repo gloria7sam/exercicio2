@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shorcut icon" type="image/x-icon" href="favicon/favicon16.png">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Formulário</title>
+</head>
+
+<body>
+    <header>
+        <div style="text-align: center;">
+            <img src="/img/cesae.png" alt="cesae" width="300px">
+            <br>
+
+            <nav>
+                <a href="https://www.cesaedigital.pt/" target="_blank">Ir para o site</a> |
+                <a href="index.html">Página Inicial</a> |
+                        <a href="multimedia2.html">Multimédia</a> |
+                        <a href="form.html">Formulário</a>
+
+                <br>
+                <a href="https://www.facebook.com/CesaeDigital" target="_blank"><img src="redesocial/facebook.png"
+                        alt="facebook" width="40px"></a>
+                <a href="https://www.linkedin.com/company/cesae-digital/" target="_blank"><img
+                        src="redesocial/linkedin.jpg" alt="linkedin" width="40px"></a>
+                <a href="https://www.youtube.com/@cesaedigital" target="_blank"><img src="redesocial/youtube.png"
+                        alt="youtube" width="40px"></a>
+                
+            </nav>
+
+        </div>
+
+    </header>
+    <main>
+        <fieldset>
+            <legend>Formulário de contacto do CESAE</legend>
+            <form action="">
+                <div>
+                    <label for="nome">Nome: </label>
+                    <input type="text" name="nome" id="nome" placeholder="Insira o seu nome aqui" required>
+                </div>
+
+
+
+                <div><label for="email">Email: </label>
+                    <input type="email" name="email" id="email">
+                </div>
+
+                <br>
+                <div>
+                    <label for="genero">Género: </label><br>
+
+                    <input type="radio" name="genero" id="genero">
+                    <label for="masculino">Masculino</label>
+
+                    <br>
+
+                    <input type="radio" name="genero" id="genero">
+                    <label for="feminino">Feminino</label>
+                </div>
+
+                <br>
+
+                <div>
+                    <label for="data">Data atual: </label>
+                    <input type="date" name="data" id="data">
+                </div>
+                <br>
+                <div>
+                    <label for="Turma: ">Turma: </label>
+                    <select name="turma" id="turma">
+                        <option value="sd">Software Developer</option>
+                        <option value="wmd">Web & Mobile Developer</option>
+                        <option value="outra">Outra</option>
+                    </select>
+                </div>
+
+                <br>
+
+                <div><label for="mensagem">Mensagem: </label><br>
+                    <textarea name="mensagem" id="" cols="30" rows="3"></textarea>
+                </div>
+
+                <br>
+
+                <div>
+                    <input type="reset" value="Limpar">
+                    <input type="submit" value="Enviar">
+                </div>
+
+
+                
+            </form>
+        </fieldset>
+    </main>
+</body>
+
+</html>
