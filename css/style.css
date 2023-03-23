@@ -8,6 +8,8 @@ body {
 header {
     padding: 40px;
     text-align: center;
+    position: sticky;
+    top:0;
 }
 
 header>img {
@@ -22,10 +24,18 @@ nav {
     background-color: grey;
     margin: 10px;
     padding: 5px;
+    color: white;
 }
 
 nav a {
     color: white;
+    text-decoration: none;
+    
+}
+
+nav a:hover{
+    background-color: aquamarine;
+    color: red;
 }
 
 .bi-facebook {
@@ -41,9 +51,12 @@ nav a {
 }
 
 
+
 .par {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     text-align: justify;
+    
+    
 }
 
 li span {
@@ -65,6 +78,7 @@ ol {
 
 ul {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    list-style-type:square;
 }
 
 footer {
@@ -72,4 +86,6 @@ footer {
     margin: 10px;
     padding: 5px;
     text-align: center;
+    position: sticky;
+    bottom: 0;
 }
